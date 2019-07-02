@@ -1,12 +1,12 @@
 # RoundCornerProgressBar
-轻量圆角进度条
+A lightweight rounded corner ProgressBar / 轻量圆角进度条
 
 <img src="/screenshot/preview.gif" width="40%" />
 
 ## MinSDK
 minSdkVersion 21
 
-## 属性
+## Attributes / 属性
 | 属性 | 描述 |
 | ------------- | ------------- |
 | rcpb_stroke_width     | 边框宽度 (默认 3dp) |
@@ -14,7 +14,7 @@ minSdkVersion 21
 | rcpb_progress_color   | 进度条颜色 |
 | rcpb_progress         | 进度 (0 - 1) |
 
-## 使用
+## How to use it / 使用
 #### Layout
 ```xml
 <moe.yukinoneko.roundcornerprogressbar.RoundCornerProgressBar
@@ -26,7 +26,7 @@ minSdkVersion 21
         app:rcpb_progress_color="#FF6087DB"
         app:rcpb_progress="0.5" />
 ```
-#### 方法
+#### Function / 方法
 ```kotlin
 fun getProgress(): Float
 fun setProgress(@FloatRange(from = 0.0, to = 1.0) progress: Float)
