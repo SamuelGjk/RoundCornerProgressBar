@@ -1,7 +1,7 @@
 # RoundCornerProgressBar
 轻量圆角进度条
 
-<img src="/screenshots/preview.gif" width="40%" />
+<img src="/screenshot/preview.gif" width="40%" />
 
 ## MinSDK
 minSdkVersion 21
