@@ -7,7 +7,7 @@ A lightweight rounded corner ProgressBar / 轻量圆角进度条
 minSdkVersion 21
 
 ## Attributes / 属性
-| 属性 | 描述 |
+| attributes / 属性 | description / 描述 |
 | ------------- | ------------- |
 | rcpb_stroke_width     | 边框宽度 (默认 3dp) |
 | rcpb_stroke_color     | 边框颜色 |
